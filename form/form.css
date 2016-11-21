@@ -228,16 +228,8 @@ When the navigation sidebar is open*/
     z-index: 150;
 }
 
-.main-content {
-	font-family: Arial, sans-serif;
-	background: #000;
-	color: red;
+main {
     text-align: center;
-    padding: .1em;
-}
-
-.main-content h2 {
-	text-decoration: underline;
 }
 
 .jumbotron {
@@ -263,41 +255,6 @@ When the navigation sidebar is open*/
     text-align: center;
     line-height: 1;
     color: #ddd;
-}
-
-/******ANIMALS********/
-
-.animal-thumb {
-	color: #000;
-    position: relative;
-    width: 29.5%;
-    float: left;
-    border: 5px solid #ddd;
-    margin: 1em;
-    padding: 1em;
-    text-align: center;
-    font-size: .85em;
-    max-height: 100%;
-}
-
-.animal-thumb:hover {
-	border: #000 solid 5px;
-}
-
-.animal-thumb img {
-    position: relative;
-    z-index: -10;
-}
-
-.adopt-btn {
-    text-decoration: none;
-    display: inline-block;
-    position: absolute;
-    z-index: 900;
-}
-
-.adopt-btn:hover {
-   	border: 1px dotted #000;
 }
 
 /***********Page Footer***********/
